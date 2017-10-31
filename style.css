@@ -1,0 +1,93 @@
+body {
+  background-color: white;
+}
+
+.container {
+  margin: 0 auto;
+  width: 360px;
+  height: 590px;
+  background-color: #ccccff;
+  border: 1px solid #494949;
+}
+
+.title {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 45px;
+  font-family: 'Delius Unicase', cursive;
+}
+
+.yourteam {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 45%;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.restart{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+
+.winner-announcement{
+  text-align: center;
+  margin: 0 auto;
+  font-size: 3em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.player1{
+    text-align: centered;
+}
+
+.player2{
+  margin-top: 20px;
+}
+
+.cross {
+  margin: 0 0px 0 20px;
+  font-weight: bold;
+}
+
+.counter {
+  margin-right: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  float:right;
+}
+
+table {
+  clear: both;
+  margin: auto;
+  margin-top: 20px;
+}
+
+td {
+  border: 3px solid;
+  border-color: #1a1a1a;
+  height: 90px;
+  width: 90px;
+}
+
+
+.zero,
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight {
+  font-size: 30px;
+  vertical-align: middle;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-style: bold;
+  color: black;
+}
