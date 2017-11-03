@@ -1,3 +1,6 @@
+@media only screen
+and (max-width : 600px) {
+
 body {
   background-color: white;
 }
@@ -5,9 +8,11 @@ body {
 .container {
   margin: 0 auto;
   width: 360px;
-  height: 590px;
-  background-color: #ccccff;
-  border: 1px solid #494949;
+  height: 565px;
+  background-color: #92c19f;
+  border: 3px solid;
+  box-shadow: 10px 10px 5px #888888;
+  
 }
 
 .title {
@@ -15,15 +20,17 @@ body {
   padding-top: 30px;
   font-size: 45px;
   font-family: 'Delius Unicase', cursive;
+  color: #ea5b4d;
+
 }
 
 .yourteam {
   text-align: center;
   margin: 0 auto;
   padding-top: 20px;
-  width: 45%;
   font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Delius Unicase', cursive;
+  background-color: #92c19f;
 }
 
 .restart{
@@ -31,27 +38,35 @@ body {
   display: block;
   margin: 0 auto;
   margin-top: 20px;
-  margin-bottom: 24px;
+  margin-bottom: 26px;
+  background: #ea5b4d;
+  font-family: 'Delius Unicase', cursive;
+  border: solid #e8e399 2px;
+  color: #1f2228;
+  font-size: 16px;
 }
 
 .winner-announcement{
   text-align: center;
   margin: 0 auto;
   font-size: 3em;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Delius Unicase', cursive;
 }
 
 .player1{
     text-align: centered;
+
 }
 
 .player2{
   margin-top: 20px;
+
 }
 
 .cross {
   margin: 0 0px 0 20px;
   font-weight: bold;
+
 }
 
 .counter {
@@ -72,6 +87,8 @@ td {
   border-color: #1a1a1a;
   height: 90px;
   width: 90px;
+  background-color: #ea5b4d;
+  box-shadow: 6px 6px 6px #888888;
 }
 
 
@@ -87,7 +104,120 @@ td {
   font-size: 30px;
   vertical-align: middle;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Delius Unicase', cursive;
   font-style: bold;
-  color: black;
+
+}
+
+}
+@media only screen
+and (min-width : 600px) {
+body {
+  background-color: white;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 360px;
+  height: 565px;
+  background-color: #92c19f;
+  border: 3px solid;
+  box-shadow: 10px 10px 5px #888888;
+  
+}
+
+.title {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 45px;
+  font-family: 'Delius Unicase', cursive;
+  color: #ea5b4d;
+
+}
+
+.yourteam {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 16px;
+  font-family: 'Delius Unicase', cursive;
+  background-color: #92c19f;
+}
+
+.restart{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 26px;
+  background: #ea5b4d;
+  font-family: 'Delius Unicase', cursive;
+  border: solid #e8e399 2px;
+  color: #1f2228;
+  font-size: 16px;
+}
+
+.winner-announcement{
+  text-align: center;
+  margin: 0 auto;
+  font-size: 3em;
+  font-family: 'Delius Unicase', cursive;
+}
+
+.player1{
+    text-align: centered;
+
+}
+
+.player2{
+  margin-top: 20px;
+
+}
+
+.cross {
+  margin: 0 0px 0 20px;
+  font-weight: bold;
+
+}
+
+.counter {
+  margin-right: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  float:right;
+}
+
+table {
+  clear: both;
+  margin: auto;
+  margin-top: 20px;
+}
+
+td {
+  border: 3px solid;
+  border-color: #1a1a1a;
+  height: 90px;
+  width: 90px;
+  background-color: #ea5b4d;
+  box-shadow: 6px 6px 6px #888888;
+}
+
+
+.zero,
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight {
+  font-size: 30px;
+  vertical-align: middle;
+  text-align: center;
+  font-family: 'Delius Unicase', cursive;
+  font-style: bold;
+
+}
 }
